@@ -1,0 +1,23 @@
+.input-amount {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  .prefix {
+    font-weight: 300;
+    color: #999;
+  }
+  input {
+    flex-grow: 1;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-weight: 600;
+    width: 300px;
+  }
+  &:focus-within {
+    background-color: white;
+    outline: 2px solid rgb(153, 153, 245);
+  }
+}
