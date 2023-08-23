@@ -1,57 +1,60 @@
 <div class="contain">
-    <div class="nav">
-        <h1 class="font-serif text-6xl text-white font-black px-7 py-7">concurreny</h1>
-    </div>
+  <div class="nav">
+    <h1 class="font-serif text-6xl font-black text-white px-7 py-7">
+      concurreny
+    </h1>
+  </div>
 
-    <div class="flex flex-col  justify-center  items-center gap-4 p-8 ">
-
-        <h1 class="text-white font-sans text-6xl   ">Currency converter</h1>
-        <p class="text-white font-sans text-4xl ">Check live foreign currency exchange rates</p>
-    </div>
-
+  <div class="flex flex-col items-center justify-center gap-4 p-8">
+    <h1 class="font-sans text-6xl text-white">Currency converter</h1>
+    <p class="font-sans text-4xl text-white">
+      Check live foreign currency exchange rates
+    </p>
+  </div>
 </div>
-<div class="card">
+<div class="blog-slider">
+  <div class="example-container">
+    <div class="Amount" class="px-16 pt-10 pb-5">
+      <h2 class="text-lg font-semibold">Amount</h2>
+      <mat-form-field floatLabel="always">
+        <mat-label>Amount</mat-label>
+        <input
+          matInput
+          type="number"
+          class="example-right-align"
+          placeholder="0"
+        />
+        <span matTextPrefix>$&nbsp;</span>
+        <span matTextSuffix>.00</span>
+      </mat-form-field>
+    </div>
+    <div class="tofrom" class="flex flex-row px-16 gap-28">
+      <div class="from">
+        <h2 class="my-2 text-lg font-semibold">from</h2>
+        <mat-form-field>
+          <mat-label>country</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let food of foods" [value]="food.value">
+              {{ food.viewValue }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
 
-    <mat-card>
-        <div class="example-container">
-            <div class="Amount" class="px-16 pt-10 pb-5">
-                <h2 class=" text-lg font-semibold">Amount</h2>
-                <mat-form-field floatLabel="always">
-                    <mat-label>Amount</mat-label>
-                    <input matInput type="number" class="example-right-align" placeholder="0">
-                    <span matTextPrefix>$&nbsp;</span>
-                    <span matTextSuffix>.00</span>
-                </mat-form-field>
-            </div>
-            <div class="tofrom" class="flex flex-row gap-28 px-16">
-                <div class="from">
-                    <h2 class="my-2 text-lg font-semibold">from</h2>
-                    <mat-form-field>
-                        <mat-label>country</mat-label>
-                        <mat-select>
-                            <mat-option *ngFor="let food of foods" [value]="food.value">
-                                {{food.viewValue}}
-                            </mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </div>
-
-                <div class="to">
-                    <h2 class="my-2 text-lg font-semibold">to</h2>
-                    <mat-form-field>
-                        <mat-label>country</mat-label>
-                        <mat-select>
-                            <mat-option *ngFor="let food of foods" [value]="food.value">
-                                {{food.viewValue}}
-                            </mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </div>
-            </div>
-            <button class="w-2/4 mx-32 mb-8" mat-raised-button color="primary">Primary</button>
-        </div>
-
-    </mat-card>
-
-
+      <div class="to">
+        <h2 class="my-2 text-lg font-semibold">to</h2>
+        <mat-form-field>
+          <mat-label>country</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let food of foods" [value]="food.value">
+              {{ food.viewValue }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+    <button class="w-2/4 mx-32 mb-8" mat-raised-button color="primary">
+      Primary
+    </button>
+  </div>
 </div>
