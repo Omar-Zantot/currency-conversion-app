@@ -1,17 +1,94 @@
-
 <div class="comparer">
     <div class="blog-slider">
-        
+        <div class="amount-input">
+            <div class="Amount">
+                <h2>Amount</h2>
+                <div>
+                    <input name="text" type="text">
+                </div>
+            </div>
+            <div class="from-country">
+              
+                <!-- <mat-form-field>
+                    <mat-label>Country</mat-label>
+                    <mat-select>
+                        <mat-option *ngFor="let country of countries" [value]="country.value">
+                            {{ country.viewValue }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field> -->
+                <div class="from">
+                    <h2>From</h2>
+                    <select name="country" id="country">
+                        <option value="EGP">EGP</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </div>
 
-      
-    kkkkkkkkkk
-    <div><button class="btn">Compare</button></div> 
-</div>
+            </div>
+        </div>
+
+        <div class="amount-input">
+
+            <div class="from-country">
+                <!-- <h2>To</h2> -->
+                <!-- <mat-form-field>
+                    <mat-label>Country</mat-label>
+                    <mat-select>
+                        <mat-option *ngFor="let country of countries" [value]="country.value">
+                            {{ country.viewValue }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field> -->
+                <div class="from">
+                    <h2>Targeted Currency</h2>
+                    <select name="country" id="country">
+                        <option value="EGP">EGP</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="from-country">
+                <!-- <h2>To</h2> -->
+                <!-- <mat-form-field class="forms">
+                    <mat-label>Country</mat-label>
+                    <mat-select>
+                        <mat-option *ngFor="let country of countries" [value]="country.value">
+                            {{ country.viewValue }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field> -->
+                <div class="from">
+                    <h2>Targeted Currency</h2>
+                    <select name="currency" id="currency">
+                        <option value="EGY">EGP</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <div class="amount-input">
+            <div class="Amount">
+                <h2>Amount</h2>
+                <div>
+                    <input name="text" type="text">
+                </div>
+            </div>
+            <div class="Amount">
+                <h2>Amount</h2>
+                <div>
+                    <input name="text" type="text">
+                </div>
+            </div>
+        </div>
+        <div><button class="btn">Compare</button></div>
     </div>
-<!-- <div>
-<button class="w-2/4 mx-32 mb-8" mat-raised-button color="primary">
-    Convert
-</button>
-</div> -->
-
-<!-- <div class="flex gap-6 flex-col"></div> -->
+</div>

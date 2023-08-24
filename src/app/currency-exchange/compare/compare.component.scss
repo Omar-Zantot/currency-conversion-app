@@ -1,10 +1,10 @@
 .comparer {
     background-image: url('../../../assets/img/glowing-chart-shows-successful-financial-growth-generated-by-ai\ 1.png');
     width: 100%;
-    height: 100%;
-    background-size: cover;
+    height: 150%;
+    flex-shrink: 0;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    // margin-top: -500px;
     position: absolute;
     top: 0%;
 }
@@ -14,19 +14,20 @@
     width: 500.519px;
     height: 62.969px;
     flex-shrink: 0;
-    position: absolute;
+    //position: absolute;
     padding-top: 0%;
-    z-index: 3;
+    //z-index: 3;
     color: #FFF;
     font-family: Poppins;
     font-size: 23.323px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin: auto;
+    //margin: auto;
     padding: auto;
     margin-top: 25%;
-    margin-left: 15%;
+    margin-left: 16%;
+    align-items: center;
  }
  
 
@@ -43,8 +44,8 @@
     padding: 25px;
     border-radius: 25px;
     transition: all 0.3s;
-    position: relative;
-    display: grid;
+    //position: relative;
+   // display: grid;
 
 
     @media screen and (max-width: 992px) {
@@ -61,4 +62,123 @@
     @media screen and (max-height: 500px) and (min-width: 992px) {
         height: 350px;
     }
+    .amount-input {
+        
+        display: flex;
+        padding: 10rem;
+        gap: 2rem;
+        margin-left: -1.5rem;
+        // flex-direction: column;
+       // justify-content: space-between;
+        align-items: center;
+        margin-top: 0%;
+        margin-bottom: -19rem;
+      
+        
+        
+
+
+        input {
+            width: 213.19px;
+            height: 54.571px;
+            flex-shrink: 0;
+            border-radius: 23.292px;
+            border: 0.881px solid #C5C5C5;
+            background: #F9F9F9;
+            font-size: 28.19px;
+            color: #000;
+            font-family: Monospace;
+            padding: 0 2rem;
+            font-style: normal;
+            font-weight: 600px;
+            margin-bottom: 2rem;
+            margin: auto;
+           // position: absolute;
+           // display:inline-block
+          //  margin-left: -5%;
+          
+          
+       
+        }
+
+        // .from-country{
+        //     display:inline-block;
+        // }
+
+        h2 {
+            color:#FFF ;
+            font-family: Montserrat;
+            font-size: 24.667px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 1rem;
+            
+        }
+        select {
+            width: 213.19px;
+            height: 54.571px;
+            flex-shrink: 0;
+            border-radius: 23.292px;
+            border: 0.881px solid #C5C5C5;
+            background: #F9F9F9;
+            padding: 0 2rem;
+            font-size: 28.19px;
+            color: #000;
+            font-family: Open Sans;
+
+            font-style: normal;
+            font-weight: 600px;
+        }
+        // .btn{
+            
+        //     border-radius: 34.154px;
+        //     background-color:#0E98D0 ;
+        //     width: 500.519px;
+        //     height: 62.969px;
+        //     flex-shrink: 0;
+        //     //position: absolute;
+        //     padding-top: 0%;
+        //     //z-index: 3;
+        //     color: #FFF;
+        //     font-family: Poppins;
+        //     font-size: 23.323px;
+        //     font-style: normal;
+        //     font-weight: 700;
+        //     line-height: normal;
+        //     //margin: auto;
+        //     padding: auto;
+        //     margin-bottom: 50rem;
+        //     margin-top: 5%;
+        //     margin-left: 15%;
+        //     align-items: center;
+        //  }
+        // .mat-option{
+
+        //     border-radius: 100%;
+        // }
+
+        //  .forms {
+        //     width: 324.19px;
+        //     height: 84.571px;
+        //     flex-shrink: 0;
+        //     border-radius: 35.238px;
+        //     border: 0.881px solid #C5C5C5;
+        //     background: #F9F9F9;
+        //     padding: 0 2rem;
+        //     font-size: 28.19px;
+        //     color: #000;
+        //     font-family: Open Sans;
+        //     font-style: normal;
+        //     font-weight: 600px;
+        // }
+        // .mat-form-field{
+        //     mat-select{
+        //         color: slategray;
+        //     }
+        // }
+
+        
+    }
+
 }
