@@ -44,5 +44,37 @@
         @media screen and (max-height: 500px) and (min-width: 992px) {
             height: 350px;
         }
+
+        .fristslect {
+            display: flex;
+            padding: 10rem;
+            gap: 6rem;
+
+
+            input {
+                width: 213.19px;
+                height: 84.571px;
+                flex-shrink: 0;
+                border-radius: 35.238px;
+                border: 0.881px solid #C5C5C5;
+                background: #F9F9F9;
+                font-size: 28.19px;
+                color: #000;
+                font-family: Open Sans;
+                padding: 1rem;
+                font-style: normal;
+                font-weight: 600px;
+            }
+
+            h2 {
+                color: #FFF;
+                font-family: Montserrat;
+                font-size: 24.667px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+        }
     }
 }

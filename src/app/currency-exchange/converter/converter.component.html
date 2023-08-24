@@ -1,8 +1,39 @@
 <div class="converter">
     <div class="blog-slider">
-        <!-- dddddddddddddddd
-        <label>drrrrrrr</label>
-        <input type="text"> -->
+
+        <div class="fristslect">
+            <div class="Amount">
+                <h2>Amount</h2>
+                <div>
+                    <input name="text" type="text">
+                </div>
+            </div>
+
+            <div class="from">
+                <h2>from</h2>
+                <mat-form-field>
+                    <mat-label>country</mat-label>
+                    <mat-select>
+                        <mat-option *ngFor="let food of foods" [value]="food.value">
+                            {{ food.viewValue }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+
+        </div>
+
+        <!-- <div class="to">
+            <h2>to</h2>
+            <mat-form-field>
+                <mat-label>country</mat-label>
+                <mat-select>
+                    <mat-option *ngFor="let food of foods" [value]="food.value">
+                        {{ food.viewValue }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div> -->
     </div>
 
 </div>
