@@ -1,15 +1,60 @@
 .exchange {
     display: flex;
-    gap: 20px;
-    background-color: aquamarine;
-    width: 30%;
-    margin: 5rem auto;
-    padding: 20px;
+    gap: 17.661px;
+
+    background: #F0F0F0;
+
+    margin: auto;
+
     position: relative;
     z-index: 1;
+    border-radius: 39.778px;
+    width: 552.519px;
+    height: 95.23px;
+    padding: 17.661px;
+    flex-shrink: 0;
 
 
     .converter {
-        background-color: aliceblue;
+        display: flex;
+        width: 239.088px;
+        height: 81.047px;
+        padding: 16.113px;
+        justify-content: center;
+        align-items: center;
+        gap: 16.113px;
+        flex-shrink: 0;
+        border-radius: 36.292px;
+        background: #FFF;
+        color: #141414;
+        font-family: Poppins;
+        font-size: 24.314px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -.5rem;
+
+    }
+
+    .compare {
+        display: flex;
+        width: 189.657px;
+        height: 81.282px;
+        padding: 16.113px;
+        justify-content: center;
+        align-items: center;
+        gap: 16.113px;
+        flex-shrink: 0;
+        border-radius: 36.292px;
+        color: #141414;
+        font-family: Poppins;
+        font-size: 24.314px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        // background: #FFF;
+        margin-top: -.5rem;
+
+
     }
 }
