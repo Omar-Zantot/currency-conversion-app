@@ -1,13 +1,15 @@
 .converter {
     background-image: url('../../../assets/img/glowing-chart-shows-successful-financial-growth-generated-by-ai\ 1.png');
     width: 100%;
-    height: 100%;
+    height: 150%;
     flex-shrink: 0;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+
     // margin-top: -500px;
     position: absolute;
     top: 0%;
+
 
     .blog-slider {
         width: 783px;
@@ -16,14 +18,7 @@
         border-radius: 11.314px;
         background: linear-gradient(134deg, rgba(0, 0, 0, 0.40) 0%, rgba(157, 157, 157, 0.20) 100%);
         backdrop-filter: blur(5.264404296875px);
-
-
-        // transform: translate(50%, -50%);
-
-
-        max-width: 800px;
-        margin: 7rem auto;
-
+        margin: 9rem auto;
         box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
         padding: 25px;
         border-radius: 25px;
@@ -47,8 +42,9 @@
 
         .fristslect {
             display: flex;
-            padding: 10rem;
-            gap: 6rem;
+            // padding: 10rem;
+            margin-left: 3rem;
+            gap: 2rem;
 
 
             input {
@@ -61,9 +57,11 @@
                 font-size: 28.19px;
                 color: #000;
                 font-family: Open Sans;
-                padding: 1rem;
+
                 font-style: normal;
                 font-weight: 600px;
+                padding: 0 2rem;
+                margin-bottom: 3rem;
             }
 
             h2 {
@@ -73,8 +71,42 @@
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
+                margin-bottom: 1rem;
             }
 
+        }
+
+        button {
+            border-radius: 34.154px;
+            background-color: #0E98D0;
+            width: 500.519px;
+            height: 62.969px;
+            flex-shrink: 0;
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 23.323px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: auto;
+            margin-top: 5%;
+            margin-left: 15%;
+        }
+
+        select {
+            width: 324.19px;
+            height: 84.571px;
+            flex-shrink: 0;
+            border-radius: 35.238px;
+            border: 0.881px solid #C5C5C5;
+            background: #F9F9F9;
+            padding: 0 2rem;
+            font-size: 28.19px;
+            color: #000;
+            font-family: Open Sans;
+
+            font-style: normal;
+            font-weight: 600px;
         }
     }
 }
