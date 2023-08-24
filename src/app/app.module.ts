@@ -15,10 +15,11 @@ import { MatButtonModule } from '@angular/material/button';
 
 
 
+
 // import { InputComponent } from './ui-components/input/input.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, CardComponent,],
+  declarations: [AppComponent, HeaderComponent, CardComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -28,7 +29,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatCardModule,
     MatInputModule,
     MatSelectModule,
-    MatButtonModule
+    MatButtonModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
