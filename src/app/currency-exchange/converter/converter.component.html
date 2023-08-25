@@ -1,12 +1,12 @@
 <div class="converter">
     <div class="blog-slider">
         <form class="my-36">
-            <!-- [(ngModel)]="inputValue" -->
+
             <div class="fristslect">
                 <div class="Amount">
                     <h2>Amount</h2>
                     <div>
-                        <input name="text" type="text">
+                        <input name="text" type="text" [(ngModel)]="inputValue">
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@
                 <div class="Amount">
                     <h2>Amount</h2>
                     <div>
-                        <input name="text" type="text">
+                        <input name="text" type="text" [(ngModel)]="outputValue">
                     </div>
                 </div>
 
@@ -42,10 +42,10 @@
         </form>
     </div>
 
-    <!-- <P>{{selected}}</P>
-    <P>{{selectedValue}}</P> -->
 
 
 
 
 </div>
+<!-- <P>{{selected}}</P>
+<P>{{selectedValue}}</P> -->

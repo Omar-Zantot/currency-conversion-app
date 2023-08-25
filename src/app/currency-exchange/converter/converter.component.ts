@@ -10,13 +10,18 @@ export class ConverterComponent {
   @ViewChild('select', { static: false }) select?: ElementRef;
   selected?: string;
   selectedValue?: string;
+  inputValue: string = '';
+  outputValue: string = '';
   options = ['Egypt', 'USD', 'Itly', 'Saudi Arabia']
+
 
   getSelectValue() {
 
     this.selected = this.select?.nativeElement.value;
     this.selectedValue = this.dropdown?.nativeElement.value;
 
+    // alert(`Input filed value${this.inputValue}`)
+    // alert(`Input filed value${this.outputValue}`)
 
 
   }
