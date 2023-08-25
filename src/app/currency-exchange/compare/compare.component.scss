@@ -8,9 +8,10 @@
     position: absolute;
     top: 0%;
 }
-.btn{
+
+.btn {
     border-radius: 34.154px;
-    background-color:#0E98D0 ;
+    background-color: #0E98D0;
     width: 500.519px;
     height: 62.969px;
     flex-shrink: 0;
@@ -28,10 +29,10 @@
     margin-top: 25%;
     margin-left: 16%;
     align-items: center;
- }
- 
+}
 
- .blog-slider {
+
+.blog-slider {
     width: 783px;
     height: 700px;
     flex-shrink: 0;
@@ -39,13 +40,13 @@
     background: linear-gradient(134deg, rgba(0, 0, 0, 0.40) 0%, rgba(157, 157, 157, 0.20) 100%);
     backdrop-filter: blur(5.264404296875px);
     max-width: 800px;
-    margin: 7rem auto;
+    margin: 9rem auto;
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
     padding: 25px;
     border-radius: 25px;
     transition: all 0.3s;
     //position: relative;
-   // display: grid;
+    // display: grid;
 
 
     @media screen and (max-width: 992px) {
@@ -62,20 +63,21 @@
     @media screen and (max-height: 500px) and (min-width: 992px) {
         height: 350px;
     }
+
     .amount-input {
-        
+
         display: flex;
         padding: 10rem;
         gap: 2rem;
         margin-left: -1.5rem;
         // flex-direction: column;
-       // justify-content: space-between;
+        // justify-content: space-between;
         align-items: center;
         margin-top: 0%;
         margin-bottom: -19rem;
-      
-        
-        
+
+
+
 
 
         input {
@@ -93,12 +95,12 @@
             font-weight: 600px;
             margin-bottom: 2rem;
             margin: auto;
-           // position: absolute;
-           // display:inline-block
-          //  margin-left: -5%;
-          
-          
-       
+            // position: absolute;
+            // display:inline-block
+            //  margin-left: -5%;
+
+
+
         }
 
         // .from-country{
@@ -106,15 +108,16 @@
         // }
 
         h2 {
-            color:#FFF ;
+            color: #FFF;
             font-family: Montserrat;
             font-size: 24.667px;
             font-style: normal;
             font-weight: 600;
             line-height: normal;
             margin-bottom: 1rem;
-            
+
         }
+
         select {
             width: 213.19px;
             height: 54.571px;
@@ -130,8 +133,9 @@
             font-style: normal;
             font-weight: 600px;
         }
+
         // .btn{
-            
+
         //     border-radius: 34.154px;
         //     background-color:#0E98D0 ;
         //     width: 500.519px;
@@ -178,7 +182,7 @@
         //     }
         // }
 
-        
+
     }
 
 }

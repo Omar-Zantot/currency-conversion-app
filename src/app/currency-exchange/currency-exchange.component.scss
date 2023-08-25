@@ -1,10 +1,21 @@
+.header {
+    position: relative;
+    z-index: 6;
+    width: 357px;
+    height: 68.489px;
+    flex-shrink: 0;
+    padding: 3rem;
+}
+
+
+
 .exchange {
     display: flex;
     gap: 17.661px;
 
     background: #F0F0F0;
 
-    margin: 12rem auto;
+    margin: 5.6rem auto;
 
 
     position: relative;
