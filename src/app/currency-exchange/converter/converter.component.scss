@@ -12,12 +12,13 @@
 
 
     .blog-slider {
-        width: 783px;
-        height: 700px;
+        width: 669.961px;
+        height: 729px;
         flex-shrink: 0;
-        border-radius: 11.314px;
+        border-radius: 18.237px;
         background: linear-gradient(134deg, rgba(0, 0, 0, 0.40) 0%, rgba(157, 157, 157, 0.20) 100%);
-        backdrop-filter: blur(5.264404296875px);
+        backdrop-filter: blur(4.504402160644531px);
+
         margin: 9rem auto;
         box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
         padding: 25px;
@@ -43,23 +44,23 @@
         .fristslect {
             display: flex;
             // padding: 10rem;
-            margin-left: 6rem;
+            margin-left: 4.5rem;
             gap: 2rem;
 
 
             input {
-                width: 213.19px;
-                height: 84.571px;
+                width: 182.424px;
+                height: 72.366px;
                 flex-shrink: 0;
-                border-radius: 35.238px;
-                border: 0.881px solid #C5C5C5;
+                border-radius: 30.153px;
+                border: 0.754px solid #C5C5C5;
                 background: #F9F9F9;
-                font-size: 28.19px;
                 color: #000;
                 font-family: Open Sans;
-
+                font-size: 24.122px;
                 font-style: normal;
-                font-weight: 600px;
+                font-weight: 600;
+                line-height: normal;
                 padding: 0 2rem;
                 margin-bottom: 3rem;
             }
@@ -67,7 +68,7 @@
             h2 {
                 color: #FFF;
                 font-family: Montserrat;
-                font-size: 24.667px;
+                font-size: 21.107px;
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
@@ -77,14 +78,14 @@
         }
 
         button {
-            border-radius: 34.154px;
-            background-color: #0E98D0;
-            width: 500.519px;
-            height: 62.969px;
+            border-radius: 30.153px;
+            background: #0E98D0;
+            width: 474.904px;
+            height: 72.366px;
             flex-shrink: 0;
             color: #FFF;
-            font-family: Poppins;
-            font-size: 23.323px;
+            font-family: Montserrat;
+            font-size: 24.122px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -94,19 +95,20 @@
         }
 
         select {
-            width: 324.19px;
-            height: 84.571px;
+            width: 277.404px;
+            height: 72.366px;
             flex-shrink: 0;
-            border-radius: 35.238px;
-            border: 0.881px solid #C5C5C5;
+            border-radius: 30.153px;
+            border: 0.754px solid #C5C5C5;
             background: #F9F9F9;
             padding: 0 2rem;
-            font-size: 28.19px;
-            color: #000;
-            font-family: Open Sans;
 
+            color: #202020;
+            font-family: Open Sans;
+            font-size: 21.107px;
             font-style: normal;
-            font-weight: 600px;
+            font-weight: 400;
+            line-height: normal;
         }
     }
 }
