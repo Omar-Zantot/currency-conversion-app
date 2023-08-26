@@ -1,18 +1,28 @@
-import { Component } from '@angular/core';
-interface Food {
-  value: string;
-  viewValue: string;
-}
+import { Component, ElementRef, ViewChild } from '@angular/core';
+
 @Component({
   selector: 'app-converter',
   templateUrl: './converter.component.html',
   styleUrls: ['./converter.component.scss']
 })
 export class ConverterComponent {
-  value = 'Clear me';
-  foods: Food[] = [
-    { value: 'steak-0', viewValue: 'Egypt' },
-    { value: 'pizza-1', viewValue: 'United States' },
-    { value: 'tacos-2', viewValue: 'Australia' },
-  ];
+  @ViewChild('dropdown', { static: false }) dropdown?: ElementRef;
+  @ViewChild('select', { static: false }) select?: ElementRef;
+  selected?: string;
+  selectedValue?: string;
+  inputValue: string = '';
+  outputValue: string = '';
+  options = ['Egypt', 'USD', 'Itly', 'Saudi Arabia']
+
+
+  getSelectValue() {
+
+    this.selected = this.select?.nativeElement.value;
+    this.selectedValue = this.dropdown?.nativeElement.value;
+
+    // alert(`Input filed value${this.inputValue}`)
+    // alert(`Input filed value${this.outputValue}`)
+
+
+  }
 }
