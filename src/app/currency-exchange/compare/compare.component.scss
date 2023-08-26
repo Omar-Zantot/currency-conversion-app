@@ -9,29 +9,38 @@
     top: 0%;
 }
 
+.am-i {
+    width: 87.735px;
+}
+
 .btn {
-    border-radius: 34.154px;
     background-color: #0E98D0;
-    width: 500.519px;
-    height: 62.969px;
+    width: 460.265px;
+    height: 70.136px;
     flex-shrink: 0;
+    border-radius: 29.223px;
     //position: absolute;
     padding-top: 0%;
     //z-index: 3;
     color: #FFF;
+    
     font-family: Poppins;
-    font-size: 23.323px;
+    font-size: 23.379px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     //margin: auto;
     padding: auto;
     margin-top: 25%;
-    margin-left: 16%;
+    margin-left: 18%;
     align-items: center;
 }
 
 
+.output {
+
+    height: 64.291px;
+}
 .blog-slider {
     width: 783px;
     height: 700px;
@@ -76,16 +85,13 @@
         margin-top: 0%;
         margin-bottom: -19rem;
 
-
-
-
-
+       
         input {
-            width: 213.19px;
-            height: 54.571px;
+            width: 222.096px;
+            height: 70.136px;
             flex-shrink: 0;
-            border-radius: 23.292px;
-            border: 0.881px solid #C5C5C5;
+            border-radius: 29.223px;
+            border: 0.731px solid #C5C5C5;
             background: #F9F9F9;
             font-size: 28.19px;
             color: #000;
@@ -98,9 +104,6 @@
             // position: absolute;
             // display:inline-block
             //  margin-left: -5%;
-
-
-
         }
 
         // .from-country{
@@ -108,28 +111,30 @@
         // }
 
         h2 {
+
+            margin-bottom: 1rem;
+
+
             color: #FFF;
-            font-family: Montserrat;
-            font-size: 24.667px;
+            font-family: Poppins;
+            font-size: 20.456px;
             font-style: normal;
             font-weight: 600;
             line-height: normal;
-            margin-bottom: 1rem;
 
         }
 
         select {
-            width: 213.19px;
-            height: 54.571px;
+            width: 222.096px;
+            height: 70.136px;
             flex-shrink: 0;
-            border-radius: 23.292px;
-            border: 0.881px solid #C5C5C5;
+            border-radius: 29.223px;
+            border: 0.731px solid #C5C5C5;
             background: #F9F9F9;
             padding: 0 2rem;
             font-size: 28.19px;
             color: #000;
             font-family: Open Sans;
-
             font-style: normal;
             font-weight: 600px;
         }
